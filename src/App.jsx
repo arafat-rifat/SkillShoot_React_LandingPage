@@ -1,8 +1,10 @@
+import Navbar from "./Components/CommonLayout/Navbar";
+
 function App() {
   return (
-    <div>
-      <h1>SkillShoot</h1>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
