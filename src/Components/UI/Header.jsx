@@ -1,5 +1,5 @@
-import Navbar from "./CommonComponents/Navbar";
-import Hero from "./CommonComponents/Hero";
+import Navbar from "../CommonComponents/Navbar";
+import Hero from "../CommonComponents/Hero";
 
 const Header = () => {
   return (
