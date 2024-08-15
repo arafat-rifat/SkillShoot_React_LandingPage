@@ -1,9 +1,10 @@
-import Navbar from "./Components/CommonLayout/Navbar";
+import Navbar from "./Components/CommonComponents/Navbar";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
     </>
   );
 }
