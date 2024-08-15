@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <section>
       <Container>
-        <nav className="flex justify-between items-center pt-[23px] pb-12 px-8 desktop:px-0">
+        <nav className="flex justify-between items-center pt-[23px]  px-8 desktop:px-0">
           {/* Logo */}
           <div>
             <img src="/src/assets/Logo.png" alt="logo" />
