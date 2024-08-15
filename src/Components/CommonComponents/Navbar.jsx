@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="hidden laptop:block">
             <ListItem>
               <Item itemName="Home" />
-              <Item itemName="Course" />
+              <Item itemName="Course" href="course" />
               <Item itemName="Subscribe" />
               <Item itemName="About" />
               <Item itemName="Testimoni" />

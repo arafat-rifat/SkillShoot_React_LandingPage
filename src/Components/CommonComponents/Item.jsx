@@ -1,12 +1,12 @@
-import React from "react";
+import { Link } from "react-scroll";
 
-const Item = ({ itemName }) => {
+const Item = ({ itemName, href }) => {
   return (
-    <a href="#">
-      <li className="font-poppins font-normal text-[18px] text-[#FFFFFF]">
+    <li className="font-poppins font-normal text-[18px] text-[#FFFFFF] cursor-pointer">
+      <Link to={href} smooth={true} duration={500}>
         {itemName}
-      </li>
-    </a>
+      </Link>
+    </li>
   );
 };
 
