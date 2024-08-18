@@ -6,6 +6,7 @@ import PopularCourse from "./Components/UI/PopularCourse";
 import PymentSection from "./Components/UI/PymentSection";
 import SubscribeNow from "./Components/UI/SubscribeNow";
 import TrustedSection from "./Components/UI/TrustedSection";
+import WhatDoTheySay from "./Components/UI/WhatDoTheySay";
 import WhatDoWeExist from "./Components/UI/WhatDoWeExist";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <LetUsSection />
       <JoinNow />
       <SubscribeNow />
+      <WhatDoTheySay />
     </>
   );
 }
