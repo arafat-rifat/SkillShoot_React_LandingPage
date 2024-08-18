@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../CommonLayout/Container";
 
 const LetUsSection = () => {
@@ -6,7 +5,7 @@ const LetUsSection = () => {
     <section>
       <Container>
         {/* Main Div */}
-        <div className="grid grid-cols-2 gap-[150px]">
+        <div className="grid grid-cols-2 gap-[150px] py-[100px] pb-[100px]">
           {/* Left Img */}
           <div>
             <img src="/src/assets/Letus.png" />
