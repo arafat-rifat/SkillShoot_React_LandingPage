@@ -9,19 +9,19 @@ const SubscribeToGetNotify = () => {
         <div className="flex flex-col gap-14 justify-center py-[100px]">
           {/*Heading and description  */}
           <div className="flex flex-col items-center">
-            <h1 className="text-[#FFFFFF] text-[36px] leading-9 font-poppins font-normal">
+            <h1 className="text-[#FFFFFF] text-lg laptop:text-[36px] leading-7 laptop:leading-9 font-poppins font-normal">
               Subscribe to get notified about update
             </h1>
-            <p className="text-[#FFFFFF] text-base font-normal leading-9">
+            <p className="text-[#FFFFFF] text-xs laptop:text-base font-normal leading-7 laptop:leading-9">
               By subscribing with your mail, you will accept our privacy policy
             </p>
           </div>
           {/* Input Section */}
-          <div className="flex justify-center items-center gap-[15px]">
+          <div className="flex flex-col laptop:flex-row justify-center items-center gap-[15px]">
             <input
               type="email"
               placeholder="Enter your email"
-              className="text-[#FFFFFF] bg-[#307264] text-base font-normal rounded-md py-[5px] pl-[30px] pr-[200px] leading-[50px] outline-none"
+              className="text-[#FFFFFF] bg-[#307264] text-base font-normal rounded-md py-[5px] pl-[30px] pr-[100px] laptop:pr-[200px] leading-[50px] outline-none"
             />
             <Button className="rounded px-[25px] py-[5px] leading-[50px] bg-[#CC8663] text-lg text-[#FFFFFF] font-medium">
               Subscribe us

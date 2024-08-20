@@ -6,7 +6,7 @@ const PymentSection = () => {
     <section className="bg-[#FFFFFF]">
       <Container>
         {/* Main Div */}
-        <div className=" flex gap-[90px] justify-center items-center pb-[55px]">
+        <div className=" flex flex-wrap gap-[90px] justify-center items-center pb-[55px]">
           {/*uber*/}
           <div>
             <img src="/src/assets/uber.png" />

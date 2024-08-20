@@ -6,15 +6,15 @@ const WhatDoWeExist = () => {
     <section>
       <Container>
         {/* Main Div */}
-        <div className="grid grid-cols-2 gap-[100px] pt-[100px] mb-[100px]">
+        <div className="grid grid-cols-1 laptop:grid-cols-2 gap-[100px] pt-[50px] laptop:pt-[100px] mb-[50px] laptop:mb-[100px]">
           {/* Left */}
-          <div className="flex flex-col gap-[30px]">
+          <div className="flex flex-col items-center laptop:items-start gap-[30px]">
             {/* heading */}
             <div>
-              <h1 className="text-[#2C2C2C] text-[36px] font-poppins font-semibold">
+              <h1 className="text-[#2C2C2C] text-lg laptop:text-[36px] font-poppins font-semibold text-center laptop:text-start">
                 Why do we <span className="text-[#CB8461]">exist?</span>
               </h1>
-              <p className="text-[#808080] text-base font-poppins font-normal leading-9 pt-[20px] max-w-[424px]">
+              <p className="text-[#808080]  text-xs laptop:text-base font-poppins font-normal leading-7 laptop:leading-9 pt-[20px] max-w-[340px] laptop:max-w-[424px] text-center laptop:text-start">
                 Because we know that many people or companies have the same
                 problem when it comes to how difficult it is to improve their
                 skills
@@ -30,7 +30,7 @@ const WhatDoWeExist = () => {
 
               {/* Description */}
               <div className="flex flex-col gap-[13px]">
-                <p className="text-[#2C2C2C] text-lg font-poppins font-semibold ">
+                <p className="text-[#2C2C2C] text-xs laptop:text-lg font-poppins font-semibold ">
                   Jerony Pulquosta
                 </p>
                 <p className="text-[#808080] text-[12px] font-poppins font-normal">
@@ -43,7 +43,7 @@ const WhatDoWeExist = () => {
 
             <div className="flex gap-[50px]">
               <div>
-                <h3 className="text-[#2C2C2C] text-[36px] font-poppins font-bold leading-[54px]">
+                <h3 className="text-[#2C2C2C] text-2xl laptop:text-[36px] font-poppins font-bold leading-[54px]">
                   100+
                 </h3>
                 <p className="text-[#808080] text-xs font-poppins font-normal">
@@ -52,7 +52,7 @@ const WhatDoWeExist = () => {
               </div>
 
               <div>
-                <h3 className="text-[#2C2C2C] text-[36px] font-poppins font-bold leading-[54px]">
+                <h3 className="text-[#2C2C2C] text-2xl laptop:text-[36px] font-poppins font-bold leading-[54px]">
                   15K
                 </h3>
                 <p className="text-[#808080] text-xs font-poppins font-normal">
@@ -62,7 +62,7 @@ const WhatDoWeExist = () => {
             </div>
           </div>
           {/* Right */}
-          <div className="grid grid-cols-2 gap-[50px]">
+          <div className="grid grid-cols-1 laptop:grid-cols-2 gap-[30px] laptop:gap-[50px]">
             <ExistCart
               title="Material Limitations"
               desCription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."

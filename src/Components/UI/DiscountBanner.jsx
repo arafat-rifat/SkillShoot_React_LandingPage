@@ -7,9 +7,9 @@ const DiscountBanner = () => {
       <Container>
         <div className="px-8 desktop:px-0">
           {/* Main div */}
-          <div className="relative rounded-[10px] bg-[#F2E7DB] mt-[133px] mb-[100px]">
+          <div className="relative rounded-[10px] bg-[#F2E7DB]  mt-[50px] laptop:mt-[133px] mb-[50px] laptop:mb-[100px]">
             {/* left */}
-            <div className="flex flex-col gap-[30px] py-[52px] pl-[60px]">
+            <div className="flex flex-col items-center laptop:items-start gap-[30px] py-[52px] pl-[60px]">
               <img
                 className="absolute  left-0 top-0"
                 src="/src/assets/corner-1.png
@@ -17,7 +17,7 @@ const DiscountBanner = () => {
               />
               {/* heading */}
               <div>
-                <h1 className="text-[#2C2C2C] text-[36px] font-poppins font-semibold leading-[54px] max-w-[586px]">
+                <h1 className="text-[#2C2C2C] text-lg laptop:text-[36px] font-poppins font-semibold leading-[27px] laptop:leading-[54px] max-w-[301px] laptop:max-w-[586px] text-center laptop:text-start">
                   Happy <span className="text-[#CB8461]">Chinese New Year</span>
                   , 20% discount for you today
                 </h1>
@@ -32,7 +32,7 @@ const DiscountBanner = () => {
             {/* Right */}
             <div>
               <img
-                className="absolute  right-[143px] top-[-134px]"
+                className="absolute  right-[143px] top-[-134px] hidden laptop:block"
                 src="/src/assets/DiscountBanner.png"
               />
               <img
@@ -41,17 +41,17 @@ const DiscountBanner = () => {
               />
 
               <img
-                className="absolute  right-[8%] bottom-[10%]"
+                className="absolute  right-[8%] bottom-[10%] hidden laptop:block"
                 src="/src/assets/discount1.png"
               />
 
               <img
-                className="absolute  right-[25%] top-[25%]"
+                className="absolute  right-[25%] top-[25%] hidden laptop:block"
                 src="/src/assets/discount2.png"
               />
 
               <img
-                className="absolute  right-[70px] top-[25%]"
+                className="absolute  right-[70px] top-[25%] hidden laptop:block"
                 src="/src/assets/discount3.png"
               />
 
