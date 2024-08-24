@@ -3,7 +3,7 @@ import Container from "../CommonLayout/Container";
 
 const SubscribeNow = () => {
   return (
-    <section>
+    <section id="subscribe">
       <Container>
         {/* Main Div */}
         <div className="py-[50px] laptop:py-[100px] flex flex-col gap-[20px] laptop:gap-[50px]">

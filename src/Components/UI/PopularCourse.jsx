@@ -1,10 +1,11 @@
 import CourseCart from "../CommonComponents/CourseCart";
+import SliderExample from "../CommonComponents/SliderExample";
 import Container from "../CommonLayout/Container";
 import CourseSlider from "./CourseSlider";
 
 const PopularCourse = () => {
   return (
-    <section className="bg-[#245D51]">
+    <section className="bg-[#245D51]" id="course">
       <Container>
         {/* Main Div */}
         <div className="pt-[76px]">
@@ -19,10 +20,8 @@ const PopularCourse = () => {
             </p>
           </div>
           {/* Course Slider */}
-          <div className=" flex flex-col laptop:flex-row justify-center gap-[20px] pb-[75px] ">
-            <CourseCart />
-            <CourseCart />
-            <CourseCart />
+          <div className="  pb-[75px] ">
+            <SliderExample />
           </div>
         </div>
       </Container>

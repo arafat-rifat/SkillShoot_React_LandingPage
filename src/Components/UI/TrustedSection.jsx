@@ -2,7 +2,7 @@ import Container from "../CommonLayout/Container";
 
 const TrustedSection = () => {
   return (
-    <section className="bg-[#FFFFFF]" id="course">
+    <section className="bg-[#FFFFFF]">
       <Container>
         {/*Main div  */}
         <div className="flex flex-col gap-[10px] items-center pt-[50px] laptop:pt-[100px] pb-[50px]">

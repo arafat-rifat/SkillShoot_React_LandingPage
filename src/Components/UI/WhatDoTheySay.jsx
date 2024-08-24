@@ -1,10 +1,9 @@
-import Button from "../CommonComponents/Button";
-import TestimonialCart from "../CommonComponents/TestimonialCart";
+import TestimonialSlider from "../CommonComponents/TestimonialSlider";
 import Container from "../CommonLayout/Container";
 
 const WhatDoTheySay = () => {
   return (
-    <section className="bg-[#F8F8F8]">
+    <section className="bg-[#F8F8F8] overflow-hidden" id="testimonial">
       <Container>
         {/* Main Div */}
         <div className="py-[50px] laptop:py-[87px] flex flex-col items-center">
@@ -19,19 +18,11 @@ const WhatDoTheySay = () => {
           </div>
 
           {/* Testimonial Div */}
-          <div className="pt-[50px] flex flex-col laptop:flex-row justify-center items-center gap-[20px]">
+          <div className="pt-[50px] ">
+            {/* <TestimonialCart />
             <TestimonialCart />
-            <TestimonialCart />
-            <TestimonialCart />
-          </div>
-          {/* Slider Button */}
-          <div className="flex gap-[20px] items-center pt-[50px]">
-            <Button className="px-[17px] py-[17px] bg-[#FFFFFF] shadow-lg rounded-full">
-              <img src="/src/assets/left.png" />
-            </Button>
-            <Button className="px-[17px] py-[17px] bg-[#CB8461] shadow-lg rounded-full">
-              <img src="/src/assets/right.png" />
-            </Button>
+            <TestimonialCart /> */}
+            <TestimonialSlider />
           </div>
         </div>
       </Container>

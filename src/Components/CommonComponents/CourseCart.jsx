@@ -1,37 +1,37 @@
 import Button from "../CommonComponents/Button";
 
-const CourseCart = () => {
+const CourseCart = ({ title, profile, courseImg, name, designation }) => {
   return (
     // Main Div
-    <div className="flex flex-col">
+    <div className="flex flex-col max-w-[413px] h-[527px]">
       {/* Img */}
       <div>
-        <img src="/src/assets/course1.png" />
+        <img src={courseImg} />
       </div>
       {/* Destails */}
       <div className="flex flex-col gap-[20px] pt-[27px] pb-[18px] pl-[27px] pr-[21px] bg-[#FFFFFF]  rounded-b-2xl">
         {/* Details Heading */}
         <div>
           <h3 className="text-[#2C2C2C] text-2xl font-poppins font-semibold max-w-[365px]">
-            Basics of learning team management
+            {title}
           </h3>
         </div>
         {/* Profile and perticipents */}
         <div className="flex justify-between items-center">
           {/* Profile */}
-          <div>
+          <div className="flex gap-[10px] items-center">
             {/* profile */}
             <div>
               {/* img */}
-              <img src="/src/assets/coursep1.png" />
+              <img src={profile} />
             </div>
             {/* description */}
             <div>
               <h3 className="text-[#2C2C2C] text-sm font-poppins font-medium">
-                Jone Owel
+                {name}
               </h3>
               <p className="text-[#808080] text-[10px] font-poppins font-normal">
-                IT Manager
+                {designation}
               </p>
             </div>
           </div>

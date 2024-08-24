@@ -1,4 +1,6 @@
 import Footer from "./Components/CommonComponents/Footer";
+import SlickSlider from "./Components/CommonComponents/SlickSlider";
+import SliderExample from "./Components/CommonComponents/SliderExample";
 import DiscountBanner from "./Components/UI/DiscountBanner";
 import Header from "./Components/UI/Header";
 import JoinNow from "./Components/UI/JoinNow";

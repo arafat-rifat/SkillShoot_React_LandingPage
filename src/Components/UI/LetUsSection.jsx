@@ -2,7 +2,7 @@ import Container from "../CommonLayout/Container";
 
 const LetUsSection = () => {
   return (
-    <section>
+    <section id="about">
       <Container>
         {/* Main Div */}
         <div className="grid grid-cols-1 laptop:grid-cols-2 gap-0 laptop:gap-[150px] py-[50px] laptop:py-[100px] pb-[50px] laptop:pb-[100px]">

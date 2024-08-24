@@ -17,9 +17,9 @@ const Navbar = () => {
             <ListItem>
               <Item itemName="Home" />
               <Item itemName="Course" href="course" />
-              <Item itemName="Subscribe" />
-              <Item itemName="About" />
-              <Item itemName="Testimoni" />
+              <Item itemName="Subscribe" href="subscribe" />
+              <Item itemName="About" href="about" />
+              <Item itemName="Testimoni" href="testimonial" />
             </ListItem>
           </div>
 
